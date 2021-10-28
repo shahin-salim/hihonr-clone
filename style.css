@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+.header , .section-1{
+    font-family: "Avenir Next Regular", "Microsoft YaHei", "PingFang SC", Arial, ProximaNova;
+}
+.logo{
+    max-width: 100px;
+    min-width: 80px;
+    width: 10vw;
+}
+.section-1{
+    background-color: #f9f9f9;
+}
+.learn-more{
+    display: flex;
+    justify-content: center;
+    color: #3c3c3b;
+    font-weight: 600;
+}
+.main-img-1{
+    height: 387px;
+}
+@media screen and (max-width: 1600px) {
+    img .main-img-1{
+        max-width: 1020px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    img .main-img-1{
+        max-height: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    img .logo{
+        max-height: 100%;
+        max-width: 27px;
+    }
+}
+.header{
+    align-content: center;
+}
+.nav-ul-item{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1600px) {
+    img .main-img-1{
+        max-width: 1020px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    img .main-img-1{
+        max-height: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    img .logo{
+        max-height: 100%;
+        max-width: 27px;
+    }
+}
+.transmition{
+        transform: none;
+        opacity: 1;
+        transition: opacity 1.2s linear .1s,transform 1.2s cubic-bezier(.215,.61,.355,1) .1s;
+    
+}
+.section-5-img-1{
+    position: absolute;
+    color: white;
+    margin-top: -16rem;
+}
+body{
+    font-family: "Avenir Next Regular", "Microsoft YaHei", "PingFang SC", Arial, ProximaNova;
+    background-color: #ffffff;
+}
+@media screen and (max-width: 839px) {
+    .section-1-block-1{
+        display: none;
+    }
+   
+}
+@media screen and (min-width: 840px) {
+    .section-1-block-2{
+        display:none ;
+    }
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    font-size: 10px;
+    color: #bda7a769;
+    
+}
+.icons{
+    font-size: 25px;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+{
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+}
+.navbar-toggler {
+ 
+    border: none;
+}
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+   
+}
